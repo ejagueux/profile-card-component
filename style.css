@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("font/KumbhSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Kumbh Sans Bold";
+    src: url("font/KumbhSans-Bold.ttf");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: hsl(185, 75%, 39%);
+    background-position: 50px 50px;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+
+
+#top {
+    height: 140px;
+    background-image: url(images/bg-pattern-card.svg);
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+
+.card {
+    width: 325px;
+    height: 375px;
+    border-radius: 15px;
+    background: white;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} 
+
+
+.contenu {
+    padding-top: auto;
+}
+
+h2 {
+    font-family: "Kumbh Sans Bold";
+    padding: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 0.5em;
+}
+
+p,
+#age {
+    font-family: "Kumbh Sans";
+    padding: none;
+    font-weight: 400;
+    margin: 0;
+    color: hsl(0, 0%, 59%);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.attribution {
+    font-size: 11px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+img {
+    position: absolute;
+    z-index: 3;
+    bottom: -53px;
+    left: 109.5px;
+    border-radius: 48px;
+    background-color: white;
+    padding: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    padding-top: 1em;
+}
+
+p,
+h2 {
+    text-align: center;
+}
